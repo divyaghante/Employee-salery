@@ -1,0 +1,12 @@
+echo "Hello | welcome to Employee wage computation program."
+random=$((RANDOM%2))
+if (($ random==1))
+then
+ echo "Employee is present"
+ emphr=8
+else
+ echo "Employee is absent"
+ emphr=0
+fi
+Dailysalery=$((emphr=20))
+echo"your Daily salery is $Dailysalery"

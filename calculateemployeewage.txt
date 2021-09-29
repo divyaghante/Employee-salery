@@ -1,0 +1,15 @@
+IsPresentfullTime=0
+IsPresentpartTime=1
+isAbsent=2
+salaryperHr=200
+for((day=1;day<=20;day++))
+do
+randomNumber=$((RANDOM%3))
+if[$randomNumber-eq $isPresentfullTime]
+then
+ empHr=8
+elif[$randomNumber-eq $isPresentpartTime]
+then
+empHr=0
+fi
+totalsalary=$((salaryperHr-$totalsalary
